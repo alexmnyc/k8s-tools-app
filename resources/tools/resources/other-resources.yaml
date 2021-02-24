@@ -18,8 +18,8 @@ spec:
     targetRevision: master
     helm:
       values: |
-        argoHost: "argo.demo.atoy.dev"
-        issuerEmail: "adam@atoy.dev"
+        argoHost: "argo.kubetrp.net"
+        issuerEmail: "kubetrp@mikhailau.com"
   syncPolicy:
     automated:
       prune: true
