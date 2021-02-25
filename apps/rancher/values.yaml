@@ -28,7 +28,7 @@ addLocal: "auto"
 busyboxImage: busybox
 
 # Add debug flag to Rancher server
-debug: false
+debug: true
 
 # Extra environment variables passed to the rancher pods.
 # extraEnv:
@@ -108,5 +108,5 @@ systemDefaultRegistry: ""
 useBundledSystemChart: false
 
 # Certmanager version compatibility
-certmanager: 
+certmanager:
   version: ""
